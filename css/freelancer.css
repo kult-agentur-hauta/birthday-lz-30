@@ -60,6 +60,18 @@ hr.star-dark:after {
   font-size: 2em;
 }
 
+hr.star-light.important:after, hr.star-dark.important:after {
+  content: '\f806';
+}
+hr.star-light.signup:after, hr.star-dark.signup:after {
+  content: '\f7bc';
+  font-family: 'Font Awesome 5 Brands';
+}
+
+hr.star-light.sonstiges:after, hr.star-dark.sonstiges:after {
+  content: '\f155';
+}
+
 hr.star-light {
   border-color: #fff;
 }
@@ -366,6 +378,8 @@ a:focus, a:hover, a:active {
 
 .bg-primary {
   background-color: #BD262A !important;
+  /*background-color: transparent !important;*/
+  /*background-image: url('../img/bg-1.jpg');*/
 }
 
 .bg-secondary {
