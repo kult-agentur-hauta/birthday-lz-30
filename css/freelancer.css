@@ -6,6 +6,12 @@
 
 body {
   font-family: 'Lato';
+  font-size: 18px;
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1600px;
+  }
 }
 .blur-text {
    color: transparent;
