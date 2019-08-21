@@ -67,7 +67,7 @@ hr.star-dark:after {
 }
 
 hr.star-light.important:after, hr.star-dark.important:after {
-  content: '\f806';
+  content: '\f071';
 }
 hr.star-light.signup:after, hr.star-dark.signup:after {
   content: '\f7bc';
